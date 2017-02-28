@@ -45,7 +45,7 @@ npm run tests
 ```
 
 ## Results
-Running this line in a test: `browser.click("#DOES_NOT_EXIST");` (see /tests/ChimpTest.js)
+Running this line in a test: `browser.click("#DOES_NOT_EXIST");` (see [/tests/ChimpTest.js](tests/ChimpTest.js))
 
 results in:
 ```
