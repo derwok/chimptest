@@ -1,0 +1,12 @@
+{
+  "name": "chimptest",
+  "private": true,
+  "scripts": {
+    "server": "meteor run",
+    "tests": "chimp --ddp=http://localhost:3000 --mocha --path=tests/"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}
