@@ -4,25 +4,29 @@ Demonstrates the `TypeError: Cannot read property 'trim' of undefined` when usin
 
 ```
 $ sw_vers
-ProductName:	Mac OS X
-ProductVersion:	10.11.6
-BuildVersion:	15G1217
+  ProductName:	Mac OS X
+  ProductVersion:	10.11.6
+  BuildVersion:	15G1217
 
 $ node --version
-v7.5.0
+  v7.5.0
 
 $ npm --version
-4.1.2
+  4.1.2
 
 $ meteor --version
-Meteor 1.4.3.1
+  Meteor 1.4.3.1
 
 $ chimp --version
-0.45.1
+  0.45.1
 
 $ cd /usr/local/lib/node_modules/chimp/node_modules/webdriverio/bin/
 $ wdio --version
-v4.6.2
+  v4.6.2
+
+$ cd /usr/local/lib/node_modules/chimp/node_modules/wdio-sync
+$ head package.json
+  "raw": "wdio-sync@^0.6.6",
 ```
 
 ## Prerequisites

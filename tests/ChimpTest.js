@@ -11,5 +11,7 @@ describe('Chimp', function () {
 
     it('can not click on non-existing selector', function () {
         browser.click("#DOES_NOT_EXIST");
+        // The above line results in:
+        // TypeError: Cannot read property 'trim' of undefined
     });
 });
